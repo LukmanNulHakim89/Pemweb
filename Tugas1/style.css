@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Gaya Global Body --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6; /* spasi antar baris teks */
+    color: #444;
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 800px; /* Lebar maksimal dokumen */
+    margin: 0 auto;   /* Memposisikan container di tengah */
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0c0e35;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.author-info {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+/* --- Daftar Isi --- */
+.table-of-contents {
+    margin-bottom: 40px;
+}
+
+.table-of-contents h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.table-of-contents ol {
+    padding-left: 20px; /* Jarak angka daftar isi */
+}
+
+.table-of-contents li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.table-of-contents a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline; /* garis bawah saat link disentuh kursor */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify; /* Membuat teks rata kiri-kanan */
+    font-weight: 300;
+}
+
+
+.s {
+    font-size: 2.5rem; /* Ukuran huruf diperbesar */
+    font-weight: 700;
+    line-height: 0.8;
+    color: #000;
+    margin-top: 5px;
+}
+
+.citation {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: -10px; /* Menarik teks sitasi agar lebih dekat dengan paragraf atas */
+}
