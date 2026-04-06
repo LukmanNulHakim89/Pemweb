@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+}
+
+.grid-galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Membuat 3 kolom dengan ukuran yang sama (1 fraction) */
+    gap: 15px; /* Jarak antar kotak gambar */
+    max-width: 500px; /* Ukuran maksimal galeri agar tidak terlalu lebar */
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1 / 1; /* Jaga aspek rasio kotak jika gambar berbeda ukuran */
+    object-fit: cover;
+}

@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+}
+
+.main {
+    margin: 150px auto 0 auto;
+    width: 75%;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+#npm,
+#Nama,
+#alamat,
+#jurusan {
+    width: inherit;
+    border: solid 1px lightgray;
+    border-radius: 4px;
+    padding: 6px;
+    margin-bottom: 24px;
+}
+
+label  {
+    margin-bottom: 2px;
+}
+
+#submit {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
