@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.container {
+  margin: 16px 32px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.inputForm {
+  width: 48%;
+}
+
+.information {
+  width: 36%;
+}
+
+.content {
+  width: 100%;
+  padding: 16px 16px 24px 16px;
+  border: solid 2px #111;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sort-controls {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort-btn {
+    padding: 4px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+}
+
+.sort-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.sort-btn.active {
+    background-color: #4a90d9;
+    color: white;
+    border-color: #4a90d9;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.riwayat-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+}
+
+.riwayat-table th,
+.riwayat-table td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.riwayat-table thead tr {
+    background-color: #4a90d9;
+    color: white;
+}
+
+.riwayat-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.riwayat-table tbody tr:hover {
+    background-color: #dce9f7;
+}
+
+.reset-btn {
+    padding: 5px 14px;
+    background-color: #e05252;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.reset-btn:hover {
+    background-color: #c0392b;
+}
+
+.inputForm .content input,
+select,
+.information .content input {
+  font-family: "Poppins", Helvetica, sans-serif;
+  padding: 4px;
+  width: 98%;
+  height: 1.4rem;
+  border: solid 1px grey;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.inputForm .content select {
+  height: 2rem;
+  width: 100%;
+}
+
+.inputForm .content label,
+.information .content label {
+  font-weight: 700;
+}
+
+.inputForm .content button {
+  font-family: "Poppins", Helvetica, sans-serif;
+  padding: 4px 24px;
+  border: solid 1px #111;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  margin: 6rem 0 0 8rem;
+  padding: 16px;
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
